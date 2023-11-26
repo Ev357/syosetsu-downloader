@@ -1,4 +1,4 @@
-# Syosetsu Downloader
+# Syosetu Downloader
 A simple Python script to download manga chapters from syosetu.top
 
 ## Usage
