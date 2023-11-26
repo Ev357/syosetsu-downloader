@@ -3,7 +3,7 @@ A simple Python script to download manga chapters from syosetu.top
 
 ## Usage
 ```bash
-python3 syosetsu-downloader.py [-h] [-d DIR] url
+python3 syosetu-downloader.py [-h] [-d DIR] url
 ```
 
 - `url`: The URL of the manga on syosetu.top.
@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 
 ## Example
 ```bash
-python3 syosetsu-downloader.py https://syosetu.top/yahari-ore-no-seishun-rabukome-wa-machigatte-iru-mougenroku-raw
+python3 syosetu-downloader.py https://syosetu.top/yahari-ore-no-seishun-rabukome-wa-machigatte-iru-mougenroku-raw
 ```
 
 This will download the chapters of the specified manga into the `output` directory.
