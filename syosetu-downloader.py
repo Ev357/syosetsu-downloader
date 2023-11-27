@@ -38,7 +38,7 @@ print("Downloading chapters...")
 for chapter_link in reversed(chap_list.find_all("a")):
     chapter_number = re.findall(r"Chapter (\d+(\.\d+)?)", chapter_link.string)[-1][0]
 
-    chapter_folder: Path = manga_folder / chapter_link.string
+    chapter_folder: Path = manga_folder / f"Chapter_{chapter_number}"
     chapter_folder.mkdir(parents=True, exist_ok=True)
     chapter_folder.cwd()
 
